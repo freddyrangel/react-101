@@ -1,8 +1,8 @@
 body {
-  font-family: Helvetica;
+  font-family: Poppins, Helvetica, sans-serif;
+  text-align: center;
 }
 .banner-image-container {
-  text-align: center;
   background-color: #222222;
 }
 
@@ -16,15 +16,19 @@ body {
   max-width: 700px;
 }
 
-h1, h2{
-  text-align: center;
+h1, h2, h3 {
+  font-family: Rokkitt, Helvetica, serif;
 }
 
 article {
   border: 2px solid #bbb;
   border-radius: 3px;
   margin: 10px 0;
-  padding: 10px;
+  padding: 20px 100px;
+}
+
+article h2 {
+  margin: 0;
 }
 
 p {
@@ -32,18 +36,22 @@ p {
   line-height: 1.5;
 }
 
+ul {
+  max-width: 300px;
+  padding: 0;
+  margin: auto;
+}
+
 li {
   line-height: 1.5;
+  list-style: none;
+  padding: 10px 0;
 }
 
 .module-title {
   margin: 60px 0 20px;
   padding: 5px;
-  text-align: center;
   border-bottom: 2px solid #bbb;
-}
-.module h3 {
-  text-align: center;
 }
 
 .module img {
@@ -89,6 +97,6 @@ li {
   justify-content: space-between;
 }
 
-.navigation {
-  padding: 0 30px 30px;
+.intro-page .nav-buttons {
+  display: block;
 }
