@@ -16,6 +16,7 @@ body {
   margin: 0 auto;
   width: 70%;
   max-width: 700px;
+  padding-bottom: 50px;
 }
 
 h1, h2, h3 {
@@ -31,7 +32,7 @@ article {
   border: 2px solid #bbb;
   border-radius: 3px;
   margin: 10px 0;
-  padding: 20px 100px;
+  padding: 20px 0;
 }
 
 article h2 {
@@ -41,12 +42,13 @@ article h2 {
 p {
   text-indent: 1em;
   line-height: 1.5;
+  padding: 0 100px;
 }
 
 ul {
   max-width: 300px;
-  padding: 0;
   margin: auto;
+  padding: 0;
 }
 
 li {
@@ -67,7 +69,7 @@ li {
 }
 
 .codepen-container {
-  margin: 50px 0;
+  padding: 50px 10px;
 }
 
 .btn {
@@ -81,9 +83,11 @@ li {
   -webkit-border-radius: 2;
   -moz-border-radius: 2;
   border-radius: 2px;
-  font-family: Arial;
   color: #ffffff;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: Rokkitt, Helvetica, serif;
   text-decoration: none;
 }
 
@@ -99,6 +103,7 @@ li {
 
 .nav-buttons {
   margin-top: 50px;
+  padding: 0 225px;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
@@ -106,4 +111,31 @@ li {
 
 .intro-page .nav-buttons {
   display: block;
+}
+
+#mc_embed_signup {
+  text-align: center;
+}
+
+#mce-EMAIL {
+  border: 1px solid #E4E9F2;
+  height: 34px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin: 30px auto 0;
+  width: 250px;
+  display: block;
+  font-family: Poppins, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#mc-embedded-subscribe {
+  color: #FFFFFF;
+  border: none;
+  width: 82px;
+  font-size: 0.8em;
+  letter-spacing: 1.5px;
+  font-weight: 300;
+  margin-top: 20px;
+  height: 35px;
 }
