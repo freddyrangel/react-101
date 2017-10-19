@@ -1,3 +1,3 @@
 # React 101 Workshop
 
-Pull Request Welcome
+Pull requests welcome!
